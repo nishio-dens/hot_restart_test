@@ -31,6 +31,7 @@ if child_pid
           exit 1
         end
       end
+      sleep 3
       Process.kill("TERM", child_pid)
       child_pid = new_child_pid
     else
