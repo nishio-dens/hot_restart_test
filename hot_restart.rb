@@ -1,4 +1,5 @@
-EXEC_COMMAND = "bundle exec ruby do_nothing.rb"
+# EXEC_COMMAND = "bundle exec ruby do_nothing.rb"
+EXEC_COMMAND = "bundle exec ruby server.rb"
 
 puts "Start master #{$$}"
 
