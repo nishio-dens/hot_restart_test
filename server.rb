@@ -13,7 +13,6 @@ t = Thread.start do
 
   while true
     conn, addr = s.accept
-    data.recv
     msg = <<-EOS
 HTTP/1.1 200 OK
 Content-Type: text/html; charset=UTF-8
